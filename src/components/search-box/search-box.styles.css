@@ -1,0 +1,23 @@
+.search-box {
+    width: 270px;
+    padding: 5px 10px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    transition: width 1s ease-in-out;
+}
+
+.search-box:focus{
+    width:370px;
+}
+
+.search-box::placeholder{
+    font-size: 16px;
+    color: black;
+}
+
+.search-box-parent {
+    text-align: center;
+    margin: 15px auto;
+}

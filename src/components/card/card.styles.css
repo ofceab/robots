@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    padding: 12px;
+    transition: transform 0.5s ease-in-out,background-color 1s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: rgb(253, 239, 203);
+}
+
+.card-image {
+    width: 50%;
+    height: 50%;
+}
+.card-link{
+    font-weight: 800;
+    color: blue;
+}
+
+h4{
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+}
